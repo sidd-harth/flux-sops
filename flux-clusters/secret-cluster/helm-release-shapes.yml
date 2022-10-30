@@ -13,3 +13,12 @@ spec:
         name: source-helm-shapes
   interval: 10s
   targetNamespace: shapes
+  values:
+    color:
+      circle: black
+      oval: red
+      rectangle: yellow
+      square: orange
+      triangle: pink
+    service:
+      type: NodePort
