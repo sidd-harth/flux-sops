@@ -30,7 +30,7 @@ spec:
   interval: 10s
   sourceRef:
     kind: GitRepository
-    name: GitRepository/flux-system
+    name: flux-system
   update:
     path: ./flux-clusters/secret-cluster
     strategy: Setters
