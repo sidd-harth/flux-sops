@@ -14,5 +14,5 @@ spec:
     spec:
       containers:
         - name: hw
-          image: hw:1.0.0 # {"$imagepolicy": "flux-system:docker-policy"}
+          image: docker.io/siddharth67/hw:1.0.1 # {"$imagepolicy": "flux-system:docker-policy"}
           imagePullPolicy: IfNotPresent
