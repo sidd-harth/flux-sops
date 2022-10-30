@@ -9,7 +9,7 @@ spec:
     secretRef:
       name: sops-gpg
   interval: 10s
-  path: ./flux-sops/secret-cluster
+  path: ./flux-sops/flux-clusters/secret-cluster
   prune: true
   sourceRef:
     kind: GitRepository
