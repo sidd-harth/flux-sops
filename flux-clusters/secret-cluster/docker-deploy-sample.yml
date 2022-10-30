@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hw
+  namespace: hw
+spec:
+  selector:
+    matchLabels:
+      app: hw
+  template:
+    metadata:
+      labels:
+        app: hw
+    spec:
+      containers:
+        - name: hw
+          image: hw:1.0.0 
+          imagePullPolicy: IfNotPresent
